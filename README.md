@@ -11,12 +11,12 @@ This project covers some of the Positive and Negative scenarios for the Volkskra
 - The test was done only for the Login page in https://www.volkskrant.nl/ together with search and navigation between tiles scenarios
 
 ## Test Coverage (Scenarios covered):
-- 12 Test Automated Scenarios 
+- 13 Test Automated Scenarios 
 - Full Login Scenario (Positive Critical Path) (1 Test Case) 
 - Validate some elements in the Login page (5 Test Case) 
 - Negative Scenarios which should lead to an unsuccessful login (Negative Scenarios) e.g wrong/missing email or passowrd (5 Test Case) 
 - Browser Back and Forward (Positive Scenarios)covered in the Tile Navigation Scenario (1 Test Case) 
-- Search functionality for Random and known keywords (1 Test Case) 
+- Search functionality for Random and known keywords (2 Test Case) 
 
 ## Approach & Considerations
 - Used maven to manage dependencies and build
@@ -47,3 +47,4 @@ This project covers some of the Positive and Negative scenarios for the Volkskra
 - CICD using GitHub Actions 
 - Possibility to change browser/enviroment 
 - Code Refactor 
+- Add more test cases to cover more scenarios
