@@ -28,7 +28,7 @@ public class searchForRandomTextScenario extends testBase {
         String ActualSearchResults = basePage.GetElementBy(basePage.searchResults).getText();
         Assert.assertEquals("0 resultaten voor "+generatedString,ActualSearchResults);
 
-        //Make sure page url contain the random next
+        //Make sure page url contain the random text
         String ActualPageUrl = basePage.GetUrl();
         String ExpectedPageUrl = "https://www.volkskrant.nl/search?query="+generatedString;
         Assert.assertEquals(ExpectedPageUrl,ActualPageUrl);
