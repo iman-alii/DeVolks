@@ -1,12 +1,12 @@
 # DeVolkskrant
 This project covers some of the Positive and Negative scenarios for the Volkskrant Login Page https://www.volkskrant.nl/
-#Frameworks & Tools & Language#
-Java JDK 16
-Selenium
-Junit 5
-Intellij IDEA
-GitHub & GitHub Actions
-Maven
+**Frameworks & Tools & Language**
+*Java JDK 16
+*Selenium
+*Junit 5
+*Intellij IDEA
+*GitHub & GitHub Actions
+*Maven
 Scope
 The test was done only for the Login page in https://www.volkskrant.nl/ together with search and navigation between tiles scenarios
 Test Coverage
