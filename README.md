@@ -21,7 +21,7 @@ This project covers some of the Positive and Negative scenarios for the Volkskra
 ## Approach & Considerations
 - Used maven to manage dependencies and build
 - All test cases should pass
-![2022-07-21 (4)](https://user-images.githubusercontent.com/77646020/180223403-38a4c066-6e9b-4e1d-9d1f-0289681cd218.png)
+![2022-07-21 (5)](https://user-images.githubusercontent.com/77646020/180299190-e86687a2-e131-4545-bf9c-b8c8fd847b03.png)
 - Test Suite Structure that contains before and after test scenarios 
 - Used Page Object Model
 - Every test case has it's own driver session to run independently
@@ -38,10 +38,10 @@ This project covers some of the Positive and Negative scenarios for the Volkskra
 ![2022-07-21](https://user-images.githubusercontent.com/77646020/180219815-4deabc47-0d89-4e27-a62e-110a60f705a4.png)
 
 ## Challenges and Problems :
+- The button (LOGIN ALS ABONEE) was not visible yesterday while bulding the test so used the Services --> Login instead 
 - Switching between iFrame to accept cookies and swich back to default frame
 - Using Automation entering a wrong or missing password for a registered account leads to 406 Not Found page 
-- The button (LOGIN ALS ABONEE) was not visible yesterday while bulding the test so used the Services --> Login instead 
-- There was an error "selenium / seleniumwire unknown error: cannot determine loading status from unknown error: unexpected command response" I googled it and found out that it's related to the driver version 103 so I downloaded manually the 104 
+- There was an error "selenium / seleniumwire unknown error: cannot determine loading status from unknown error: unexpected command response" was fixed by upgrading the driver version from 103 to 104 
 
 ## Improvements if I had more time: 
 - CICD using GitHub Actions 
