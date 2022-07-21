@@ -1,6 +1,6 @@
-# DeVolks
+# DeVolkskrant
 This project covers some of the Positive and Negative scenarios for the Volkskrant Login Page https://www.volkskrant.nl/
-Frameworks & Tools & Language
+#Frameworks & Tools & Language#
 Java JDK 16
 Selenium
 Junit 5
