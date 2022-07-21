@@ -52,7 +52,7 @@ public class loginWithWrongPasswordScenario extends testBase {
             String ExpectedPageTitle = "https://login.dpgmedia.nl/login?client_id=vk-selectives-web";
             Assert.assertEquals(ExpectedPageTitle, ActualPageTitle);
 
-            //This test cases didn't work throughh automation as it should be the page gives 406 Not Acceptable Error
+            //This test cases didn't work through automation as it should be the page gives 406 Not Acceptable Error
 
             //Check validation message is displayed
             //basePage.WaitForElement(basePage.incorrectPassword);
