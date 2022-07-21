@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: loginPositiveScenario.loginWithValidDataScenario
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.414 s - in loginPositiveScenario.loginWithValidDataScenario
