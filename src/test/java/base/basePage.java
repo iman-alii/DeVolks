@@ -22,7 +22,7 @@ public class basePage {
         //options.setBinary("C:\\Program Files\\Google\\Chrome Beta\\Application\\chrome.exe"); //just faced a problem with chromedriver 103 so I made this manual step to try driver 104
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
-        //options.addArguments("--headless");
+        options.addArguments("--headless");
         driver = new ChromeDriver(options);
         wait = new WebDriverWait(driver, 15); //max of wait is 15sec
         openPage();
